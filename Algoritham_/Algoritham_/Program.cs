@@ -31,6 +31,15 @@ namespace Algoritham_
                     else
                         Console.WriteLine("string is found" + find);
                     break;
+                case 3:
+                    //BubbleSort
+                    Bubble bubble = new Bubble();
+                    bubble.Bubblesort();
+                    break;
+                case 4:
+                    InsectionSort inster = new InsectionSort();
+                    inster.Check();
+                    break;
                 default:
                     Console.WriteLine("Invalid option Enter valid Option");
                     break;
